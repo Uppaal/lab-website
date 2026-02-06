@@ -39,23 +39,23 @@ title: ""
 
       <div class="carousel-item active">
         <img
-          src="{{ site.baseurl }}/assets/photos/lab-2024-spring.jpg"
-          class="d-block w-100 carousel-img"
-          alt="New lab photo"
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">Lab Outing - Spring 2024</p>
-        </div>
-      </div>
-
-      <div class="carousel-item active">
-        <img
           src="{{ site.baseurl }}/assets/photos/lab-2023-spring.jpg"
           class="d-block w-100 carousel-img"
           alt="New lab photo"
         />
         <div class="carousel-caption d-none d-md-block">
           <p class="mb-0">Lab Outing - Spring 2023</p>
+        </div>
+      </div>
+
+      <div class="carousel-item active">
+        <img
+          src="{{ site.baseurl }}/assets/photos/lab-2024-spring.jpg"
+          class="d-block w-100 carousel-img"
+          alt="New lab photo"
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <p class="mb-0">Lab Outing - Spring 2024</p>
         </div>
       </div>
 

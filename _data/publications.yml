@@ -6,6 +6,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/pdf/2406.02069"
+        - label: "Code"
+          url: "https://github.com/Zefan-Cai/KVCache-Factory"
 
     - title: "V-SEAM: Visual Semantic Editing and Attention Modulating for Causal Interpretability of Vision-Language Models"
       authors: "Qidong Wang, Junjie Hu, and Ming Jiang"
@@ -13,6 +15,8 @@
       links:
         - label: "Paper"
           url: "https://aclanthology.org/2025.emnlp-main.880/"
+        - label: "Code"
+          url: "https://github.com/petergit1/V-SEAM"
 
     - title: "Probing LLM World Models: Enhancing Guesstimation with Wisdom of Crowds Decoding"
       authors: "Yun-Shiuan Chuang, Nikunj Harlalka, Sameer Narendran, Alexander Cheung, Sizhe Gao, Siddharth Suresh, Junjie Hu, and Timothy T Rogers"
@@ -26,6 +30,12 @@
       venue: "In The Thirteenth International Conference on Learning Representations 2025"
       links:
         - label: "Paper"
+          url: "https://arxiv.org/abs/2405.13967"
+        - label: "Code"
+          url: "https://github.com/Uppaal/detox-edit"
+        - label: "Checkpoints"
+          url: "https://huggingface.co/collections/Uppaal/profs"
+        - label: "Blog"
           url: "https://uppaal.github.io/projects/profs/profs.html"
 
     - title: "No Preference Left Behind: Group Distributional Preference Optimization"
