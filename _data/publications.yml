@@ -35,7 +35,7 @@
           url: "https://github.com/Uppaal/detox-edit"
         - label: "Checkpoints"
           url: "https://huggingface.co/collections/Uppaal/profs"
-        - label: "Blog"
+        - label: "Project Website"
           url: "https://uppaal.github.io/projects/profs/profs.html"
 
     - title: "No Preference Left Behind: Group Distributional Preference Optimization"
@@ -44,6 +44,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2412.20299"
+        - label: "Code"
+          url: "https://github.com/BigBinnie/GDPO"
 
     - title: "MA-LoT: Multi-Agent Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving"
       authors: "Ruida Wang, Rui Pan, Yuxin Li, Jipeng Zhang, Yizhen Jia, Shizhe Diao, Renjie Pi, Junjie Hu, and Tong Zhang"
@@ -51,6 +53,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2503.03205"
+        - label: "Code"
+          url: "https://github.com/RickySkywalker/LeanOfThought-Official"
 
     - title: "R-KV: Redundancy-aware KV Cache Compression for Training-Free Reasoning Models Acceleration"
       authors: "Zefan Cai, Wen Xiao, Hanshi Sun, Cheng Luo, Yikai Zhang, Ke Wan, Yucheng Li, Yeyang Zhou, Li-Wen Chang, Jiuxiang Gu, Zhen Dong, Anima Anandkumar, Abedelkadir Asi, and Junjie Hu"
@@ -58,6 +62,10 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/pdf/2505.24133"
+        - label: "Code"
+          url: "https://github.com/Zefan-Cai/R-KV"
+        - label: "Project Website"
+          url: "https://zefan-cai.github.io/R-KV.page/"
 
     - title: "COMMA: A Communicative Multimodal Multi-Agent Benchmark"
       authors: "Timothy Ossowski, Danyal Maqbool, Jixuan Chen, Zefan Cai, Tyler J. Bradshaw, and Junjie Hu"
@@ -65,6 +73,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2410.07553"
+        - label: "Code"
+          url: "https://github.com/tossowski/COMMA"
 
     - title: "Scaling Up Audio-Synchronized Visual Animation: An Efficient Training Paradigm"
       authors: "Lin Zhang, Zefan Cai, Yufan Zhou, Shentong Mo, Jinhong Lin, Cheng-En Wu, Yibing Wei, Yijing Zhang, Ruiyi Zhang, Wen Xiao, and others"
@@ -79,6 +89,10 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2507.09574"
+        - label: "Code"
+          url: "https://github.com/HaozheZhao/MENTOR"
+        - label: "Project Website"
+          url: "https://haozhezhao.github.io/MENTOR.page/"
 
     - title: "Headinfer: Memory-efficient llm inference by head-wise offloading"
       authors: "Cheng Luo, Zefan Cai, Hanshi Sun, Jinqi Xiao, Bo Yuan, Wen Xiao, Junjie Hu, Jiawei Zhao, Beidi Chen, and Anima Anandkumar"
@@ -86,6 +100,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2502.12574"
+        - label: "Code"
+          url: "https://github.com/wdlctc/headinfer"
 
     - title: "VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection"
       authors: "Zeyi Huang, Yuyang Ji, Anirudh Sundara Rajan, Zefan Cai, Wen Xiao, Junjie Hu, and Yong Jae Lee"
@@ -93,6 +109,10 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2505.20289"
+        - label: "Code"
+          url: "https://github.com/OoDBag/VisTA"
+        - label: "Project Website"
+          url: "https://oodbag.github.io/vista_web/"
 
 
 
@@ -104,6 +124,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2406.00872"
+        - label: "Code"
+          url: "https://github.com/tossowski/OLIVE"
 
     - title: "Data Augmentation using LLMs: Data Perspectives, Learning Paradigms and Challenges"
       authors: "Bosheng Ding, Chengwei Qin, Ruochen Zhao, Tianze Luo, Xinze Li, Guizhen Chen, Wenhan Xia, Junjie Hu, Anh Tuan Luu, and Shafiq Joty"
@@ -118,6 +140,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2408.05102"
+        - label: "Code"
+          url: "https://github.com/ljl0222/CUNIT"
 
     - title: "MetaWriter: Exploring the Potential and Perils of AI Writing Support in Scientific Peer Review"
       authors: "Lu Sun, Stone Tao, Junjie Hu, and Steven Dow"
@@ -132,6 +156,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2404.01943"
+        - label: "Code"
+          url: "https://github.com/MrZihan/HNR-VLN"
 
     - title: "Evaluating LLM Agent Group Dynamics against Human Group Dynamics: A Case Study on Wisdom of Partisan Crowds"
       authors: "Yun-Shiuan Chuang, Siddharth Suresh, Nikunj Harlalka, Agam Goyal, Robert Hawkins, Sijia Yang, Dhavan Shah, Junjie Hu, and Timothy T Rogers"
@@ -146,6 +172,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2402.00232"
+        - label: "Code"
+          url: "https://github.com/rxlian/LA-SCL"
 
     - title: "Beyond Demographics: Aligning Role-playing LLM-based Agents Using Human Belief Networks"
       authors: "Yun-Shiuan Chuang, Zach Studdiford, Krirk Nirunwiroj, Agam Goyal, Vincent V. Frigo, Sijia Yang, Dhavan V. Shah, Junjie Hu, and Timothy T. Rogers"
@@ -160,6 +188,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2305.14328"
+        - label: "Code"
+          url: "https://github.com/BigBinnie/Benchmarking-LLM-based-Machine-Translation-on-Cultural-Awareness"
 
     - title: "Chatbot Meets Pipeline: Augment Large Language Model with Definite Finite Automaton"
       authors: "Yiyou Sun, Junjie Hu, Wei Cheng, and Haifeng Chen"
@@ -174,6 +204,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2404.03558"
+        - label: "Code"
+          url: "https://github.com/harmonbhasin/curriculum_learning_icl"
 
     - title: "Simulating Opinion Dynamics with Networks of LLM-based Agents"
       authors: "Yun-Shiuan Chuang, Agam Goyal, Nikunj Harlalka, Siddharth Suresh, Robert Hawkins, Sijia Yang, Dhavan Shah, Junjie Hu, and Timothy T Rogers"
@@ -188,6 +220,10 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2402.14968"
+        - label: "Code"
+          url: "https://github.com/Jayfeather1024/Backdoor-Enhanced-Alignment"
+        - label: "Project Website"
+          url: "https://jayfeather1024.github.io/Finetuning-Jailbreak-Defense/"
 
     - title: "Large Language Models Are Active Critics in NLG Evaluation"
       authors: "Shuying Xu, Junjie Hu, and Ming Jiang"
@@ -202,6 +238,8 @@
       links:
         - label: "Paper"
           url: "https://aclanthology.org/2024.repl4nlp-1.9/"
+        - label: "Code"
+          url: "https://github.com/Uppaal/cpt-generative-uda"
 
     - title: "Prompting Large Vision-Language Models for Compositional Reasoning"
       authors: "Timothy Ossowski, Ming Jiang, and Junjie Hu"
@@ -209,6 +247,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/abs/2401.11337"
+        - label: "Code"
+          url: "https://github.com/tossowski/KeyComp"
 
 
 
@@ -228,6 +268,8 @@
       links:
         - label: "Paper"
           url: "https://aclanthology.org/2023.acl-long.717.pdf"
+        - label: "Code"
+          url: "https://github.com/Uppaal/lm-ood"
 
     - title: "Local Byte Fusion for Neural Machine Translation"
       authors: "Makesh Narsimhan Sreedhar, Xiangpeng Wan, Yu Cheng, and Junjie Hu"
@@ -235,6 +277,8 @@
       links:
         - label: "Paper"
           url: "https://arxiv.org/pdf/2205.11490"
+        - label: "Code"
+          url: "https://github.com/makeshn/LOBEF_Byte_NMT"
 
     - title: "Multimodal Prompt Retrieval for Generative Visual Question Answering"
       authors: "Timothy Ossowski, and Junjie Hu"
@@ -242,6 +286,8 @@
       links:
         - label: "Paper"
           url: "https://aclanthology.org/2023.findings-acl.158.pdf"
+        - label: "Code"
+          url: "https://github.com/tossowski/MultimodalPromptRetrieval"
 
     - title: "Evolving Domain Adaptation of Pretrained Language Models for Text Classification"
       authors: "Yun-Shiuan Chuang, Yi Wu, Dhruv Gupta, Rheeya Uppaal, Ananya Kumar, Luhang Sun, Makesh Narsimhan Sreedhar, Sijia Yang, Timothy T Rogers, and Junjie Hu"
