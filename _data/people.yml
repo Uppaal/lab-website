@@ -26,7 +26,7 @@ students:
 
   - name: "Zefan Cai"
     role: "PhD in CS, Fall 2024-"
-    interests: [ "LLM Efficienc", "LLM Architecture", "LLM Memorization"]
+    interests: [ "LLM Efficiency", "LLM Architecture", "LLM Memorization"]
     website: "https://zefan-cai.github.io/"
     photo: "assets/photos/zefan-cai.jpeg"
 
