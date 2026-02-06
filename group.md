@@ -5,6 +5,7 @@ subtitle: "People in the lab"
 ---
 
 ## Graduate students
+<div class="people-grid">
 {% for p in site.data.people.students %}
 <div class="person">
   {% if p.photo and p.photo != "" %}
@@ -31,6 +32,7 @@ subtitle: "People in the lab"
   </div>
 </div>
 {% endfor %}
+</div>
 
 ## Alumni
 <ul>

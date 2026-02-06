@@ -113,7 +113,7 @@
 }
 
 .carousel-img {
-  height: 420px;
+  height: 720px;
   object-fit: cover;
 }
 
@@ -127,11 +127,38 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .navbar a {
   color: #333;
 }
 
 .navbar a:hover {
   color: var(--highlight-color);
+}
+
+/* Two-column people layout */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+/* On small screens, fall back to one column */
+@media (max-width: 800px) {
+  .people-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Remove bottom borders inside grid (optional, looks cleaner) */
+.people-grid .person {
+  border-bottom: none;
+  padding-bottom: 1rem;
+}
+
+.people-grid .person {
+  padding-top: 0.5rem;
+}
+
+.person {
+  align-items: flex-start;
 }
