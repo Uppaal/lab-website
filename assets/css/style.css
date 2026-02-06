@@ -265,7 +265,7 @@ footer a:hover {
 }
 
 .alumni-name a {
-  color: inherit;
+  color: var(--highlight-color);
   text-decoration: none;
 }
 
