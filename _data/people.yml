@@ -36,8 +36,19 @@ students:
     website: "https://ikakkar03.github.io/"
     photo: "assets/photos/ishita-kakkar.jpg"
 
+  - name: "Stockton Jenkins"
+    role: "PhD in CS, Fall 2024-"
+    interests: [ "Agentic Retrieval", "Multi-modal Retrieval", "Knowledge Graphs" ]
+    website: "https://www.linkedin.com/in/stockton-jenkins-23625a234"
+    photo: "assets/photos/stockton-jenkins.jpg"
+
 
 alumni:
+  - name: "Sean Yun-Shiuan Chuang"
+    role: "PhD in cognitive science, advised by Tim Rogers, now Staff AI Research Scientist at PayPal AI"
+    website: "https://www.linkedin.com/in/yunshiuanchuang/?locale=en_US"
+    photo: "assets/photos/sean-chuang.JPG"
+
   - name: "Himanshu Chaudhary"
     role: "MS in CS"
     website: "https://www.linkedin.com/in/himanshu-chaudhary-929720147/"
