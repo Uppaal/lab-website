@@ -32,7 +32,7 @@ students:
 
   - name: "Ishita Kakkar"
     role: "PhD in CS, Fall 2025-"
-    interests: [ "Interpretability" ]
+    interests: [ "AI Safety" ]
     website: "https://ikakkar03.github.io/"
     photo: "assets/photos/ishita-kakkar.jpg"
 
