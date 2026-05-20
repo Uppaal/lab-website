@@ -44,7 +44,7 @@ title: ""
       <div class="carousel-item">
         <img
           src="{{ site.baseurl }}/assets/photos/lab-2023-spring.jpg"
-          class="d-block w-100 carousel-img"
+          class="d-block w-80 carousel-img"
           alt="New lab photo"
         />
         <div class="carousel-caption d-none d-md-block">
@@ -55,11 +55,33 @@ title: ""
       <div class="carousel-item active">
         <img
           src="{{ site.baseurl }}/assets/photos/lab-2024-spring.jpg"
-          class="d-block w-100 carousel-img"
+          class="d-block w-80 carousel-img"
           alt="New lab photo"
         />
         <div class="carousel-caption d-none d-md-block">
           <p class="mb-0">Lab Outing - Spring 2024</p>
+        </div>
+      </div>
+
+      <div class="carousel-item active">
+        <img
+          src="{{ site.baseurl }}/assets/photos/lab-2026-spring.jpg"
+          class="d-block w-80 carousel-img"
+          alt="New lab photo"
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <p class="mb-0">Lab Outing - Summer 2026</p>
+        </div>
+      </div>
+
+      <div class="carousel-item active">
+        <img
+          src="{{ site.baseurl }}/assets/photos/lab-2026-spring-2.jpg"
+          class="d-block w-80 carousel-img"
+          alt="New lab photo"
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <p class="mb-0">Lab Outing - Summer 2026</p>
         </div>
       </div>
 
@@ -69,7 +91,7 @@ title: ""
       <div class="carousel-item">
         <img
           src="{{ site.baseurl }}/assets/photos/another-photo.jpg"
-          class="d-block w-100 carousel-img"
+          class="d-block w-80 carousel-img"
           alt="Another lab photo"
         />
         <div class="carousel-caption d-none d-md-block">
