@@ -12,12 +12,6 @@ students:
     website: "https://uppaal.github.io/"
     photo: "assets/photos/rheeya-uppaal.jpg"
 
-  - name: "Tim Ossowski"
-    role: "PhD in CS, Fall 2022-"
-    interests: ["Multimodal retrieval", "MLLMs for biomedicine", "LLM agents"]
-    website: "https://tossowski.github.io/website/"
-    photo: "assets/photos/tim-ossowski.png"
-
   - name: "Binwei Yao"
     role: "PhD in CS, Fall 2023-"
     interests: [ "Pluralistic alignment", "Personalization", "Evaluation"]
@@ -30,26 +24,31 @@ students:
     website: "https://zefan-cai.github.io/"
     photo: "assets/photos/zefan-cai.jpeg"
 
-  - name: "Ishita Kakkar"
-    role: "PhD in CS, Fall 2025-"
-    interests: [ "AI Safety" ]
-    website: "https://ikakkar03.github.io/"
-    photo: "assets/photos/ishita-kakkar.jpg"
-
   - name: "Stockton Jenkins"
     role: "PhD in CS, Fall 2024-"
     interests: [ "Agentic Retrieval", "Multi-modal Retrieval", "Knowledge Graphs" ]
     website: "https://www.linkedin.com/in/stockton-jenkins-23625a234"
     photo: "assets/photos/stockton-jenkins.jpg"
 
-  - name: "Alexander Geppert"
+  - name: "Ishita Kakkar"
     role: "PhD in CS, Fall 2025-"
-    interests: [ "Multi-modal Retrieval", "Agentic AI", "World Models" ]
-    website: "https://ageppert01.github.io/"
-    photo: "assets/photos/alexander-geppert.jpeg"
+    interests: [ "AI Safety" ]
+    website: "https://ikakkar03.github.io/"
+    photo: "assets/photos/ishita-kakkar.jpg"
+
+#  - name: "Alexander Geppert"
+#    role: "PhD in CS, Fall 2025-"
+#    interests: [ "Multi-modal Retrieval", "Agentic AI", "World Models" ]
+#    website: "https://ageppert01.github.io/"
+#    photo: "assets/photos/alexander-geppert.jpeg"
 
 
 alumni:
+  - name: "Tim Ossowski"
+    role: "PhD in CS (2021-26), now Senior Research Scientist at Microsoft Research"
+    website: "https://tossowski.github.io/website/"
+    photo: "assets/photos/tim-ossowski.png"
+
   - name: "Sean Yun-Shiuan Chuang"
     role: "PhD in cognitive science, advised by Prof Tim Rogers, now Staff AI Research Scientist at PayPal AI"
     website: "https://www.linkedin.com/in/yunshiuanchuang/?locale=en_US"
