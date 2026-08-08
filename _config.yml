@@ -1,13 +1,10 @@
 title: "Hu Lab"
 description: "Our research focuses on understanding behaviors of large language models (LLMs), adapting them effectively to knowledge-intensive reasoning tasks, and aligning them safely with users from diverse backgrounds."
-url: "https://uppaal.github.io"  # TODO CHANGE THIS WHEN EXPORTING
-baseurl: "/lab-website"  # if repo is https://github.com/YOUR_GITHUB_USERNAME/lab-website
-# If publishing from a repo named YOUR_GITHUB_USERNAME.github.io, set baseurl: ""
+
+url: "https://madison-nlp.github.io"
+baseurl: "/hu-lab"
 
 markdown: kramdown
-
-# Keep it simple: no theme needed since we provide layouts
 plugins: []
 
-# Optional: make permalinks clean
 permalink: pretty
