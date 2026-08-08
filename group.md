@@ -37,9 +37,39 @@ subtitle: "People in the lab"
 </div>
 
 
-## Graduate students
+## PhD Students
 <div class="people-grid">
-{% for p in site.data.people.students %}
+{% for p in site.data.people.phd_students %}
+<div class="person">
+  {% if p.photo and p.photo != "" %}
+    <img src="{{ site.baseurl }}/{{ p.photo }}" alt="{{ p.name }}">
+  {% else %}
+    <img src="https://via.placeholder.com/92" alt="{{ p.name }}">
+  {% endif %}
+  <div>
+    <div class="fw-semibold">
+      {% if p.website and p.website != "" %}
+        <a href="{{ p.website }}">{{ p.name }}</a>
+      {% else %}
+        {{ p.name }}
+      {% endif %}
+    </div>
+    <div class="meta">{{ p.role }}</div>
+    {% if p.interests %}
+      <div class="mt-1">
+        {% for t in p.interests %}
+          <span class="badge-lite">{{ t }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+</div>
+
+## Masters and Undergrad Students
+<div class="people-grid">
+{% for p in site.data.people.masters_undergrad_students %}
 <div class="person">
   {% if p.photo and p.photo != "" %}
     <img src="{{ site.baseurl }}/{{ p.photo }}" alt="{{ p.name }}">
@@ -70,8 +100,13 @@ subtitle: "People in the lab"
 
 ## Alumni
 
+{% assign alumni_degrees = "PhD|MS|BS" | split: "|" %}
+{% for degree in alumni_degrees %}
+{% assign alumni_group = site.data.people.alumni | where: "degree", degree %}
+{% if alumni_group.size > 0 %}
+### {{ degree }}
 <div class="alumni-grid">
-  {% for a in site.data.people.alumni %}
+  {% for a in alumni_group %}
     <div class="alumni-card">
       {% if a.photo and a.photo != "" %}
         <img src="{{ site.baseurl }}/{{ a.photo }}" alt="{{ a.name }}" class="alumni-photo">
@@ -91,3 +126,5 @@ subtitle: "People in the lab"
     </div>
   {% endfor %}
 </div>
+{% endif %}
+{% endfor %}

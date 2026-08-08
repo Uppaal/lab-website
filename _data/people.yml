@@ -5,7 +5,7 @@ pi:
   photo: "assets/photos/junjie-hu.png"
   website: "https://junjiehu.github.io/"
 
-students:
+phd_students:
   - name: "Rheeya Uppaal"
     role: "PhD in CS, Spring 2022-"
     interests: ["AI Safety", "Interpretability", "Generalization"]
@@ -36,83 +36,113 @@ students:
     website: "https://ikakkar03.github.io/"
     photo: "assets/photos/ishita-kakkar.jpg"
 
+masters_undergrad_students: []
+
 alumni:
   - name: "Tim Ossowski"
+    degree: "PhD"
     role: "PhD in CS (2021-26), now Senior Research Scientist at Microsoft Research"
     website: "https://tossowski.github.io/website/"
     photo: "assets/photos/tim-ossowski.png"
 
+  - name: "Tianyi Xu"
+    degree: "BS"
+    text: "BS '26, now PhD Student at Oregon State University"
+    website: "https://tianyi0216.github.io/"
+    photo: "assets/photos/smile.jpg"
+
+  - name: "Xinchi (Chloe) Liu"
+    degree: "MS"
+    text: "MS '26"
+    website: "https://chloeeliu.github.io/"
+    photo: "assets/photos/smile.jpg"
+
   - name: "Sean Yun-Shiuan Chuang"
+    degree: "PhD"
     role: "PhD in cognitive science, advised by Prof Tim Rogers, now Staff AI Research Scientist at PayPal AI"
     website: "https://www.linkedin.com/in/yunshiuanchuang/?locale=en_US"
     photo: "assets/photos/sean-chuang.JPG"
 
   - name: "Himanshu Chaudhary"
+    degree: "MS"
     role: "MS in CS"
     website: "https://www.linkedin.com/in/himanshu-chaudhary-929720147/"
     photo: "assets/photos/himanshu-chaudhary.jpg"
 
   - name: "Tara Bobinac"
+    degree: "MS"
     role: "MS in CS"
     website: "https://www.linkedin.com/in/tarabobinac/"
     photo: "assets/photos/tara-bobinac.jpg"
 
   - name: "Karthik Suresh"
+    degree: "MS"
     role: "MS in CS"
     website: "https://www.linkedin.com/in/karthik-suresh-3240/"
     photo: "assets/photos/karthik-suresh.jpg"
 
   - name: "Shan Leng"
+    degree: "MS"
     role: "MS in Stats, now PhD in BDS at UW-Madison"
     website: "https://www.linkedin.com/in/shan-leng-025206256/"
     photo: "assets/photos/smile.jpg"
 
   - name: "Agam Goyal"
+    degree: "BS"
     role: "BS in CS, now PhD in CS at UIUC"
     website: "https://agoyal0512.github.io/"
     photo: "assets/photos/agam-goyal.jpg"
 
   - name: "Samarth Mathur"
+    degree: "MS"
     role: "MS in ECE, now software engineer at Supernova Technology"
     website: "https://www.linkedin.com/in/samarth-mathur1/"
     photo: "assets/photos/samarth-mathur.jpg"
 
   - name: "Yuye Jiang"
+    degree: "MS"
     role: "MS in CS, now software engineer at Oracle"
     website: "https://www.linkedin.com/in/yuye-jiang-xx/"
     photo: "assets/photos/yuye-jiang.jpg"
 
   - name: "Gowtham Ramesh"
+    degree: "MS"
     role: "MS in CS, now applied research scientist at AMD"
     website: "https://www.linkedin.com/in/gowtham1/?originalSubdomain=in"
     photo: "assets/photos/gowtham-ramesh.jpg"
 
   - name: "Jack Ziyang Cai"
+    degree: "BS"
     role: "BS in ECE/Math -> MS in ECE"
     website: "https://www.linkedin.com/in/jackcai1206/"
     photo: "assets/photos/jack-cai.jpg"
 
   - name: "Ruixue Lian"
+    degree: "PhD"
     role: "PhD in ECE, co-advised w/ Prof. William Sethares, now applied scientist at Amazon AWS"
     website: "https://www.linkedin.com/in/ruixue-lian-918bb6110/"
     photo: "assets/photos/ruixue-lian.jpg"
 
   - name: "Makesh Narsimhan Sreedhar"
+    degree: "MS"
     role: "MS in CS, now research engineer at NVIDIA"
     website: "https://scholar.google.com/citations?user=1BGJ0YMAAAAJ&hl=en"
     photo: "assets/photos/makesh-sridhar.jpg"
 
   - name: "Shilu He"
+    degree: "MS"
     role: "MS in Math, now software engineer at Amazon Alexa"
     website: "https://github.com/Aurora-He"
     photo: "assets/photos/shilu-he.jpg"
 
   - name: "Shanchao Liang"
+    degree: "BS"
     role: "BS in CS/Math, now PhD in CS at Purdue"
     website: "https://www.linkedin.com/in/shanchao-liang-106480195/"
     photo: "assets/photos/smile.jpg"
 
   - name: "Shunchi Zhang"
+    degree: "BS"
     role: "Exchange student from XJTU, now MS in CS at JHU"
     website: "https://shunchizhang.github.io/"
     photo: "assets/photos/shunchi-zhang.jpg"

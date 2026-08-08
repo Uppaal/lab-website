@@ -37,7 +37,7 @@ join.md
 - `_config.yml`: Global site configuration. Update this if: Changing domain, updating site title.
 - `assets/css/style.css`: Contains all custom styling. Only edit if changing visual design.
 - `index.md`: Homepage. Contains: Research themes and the carousel layout. Carousel images are loaded from `_data/carousel.yml`.
-- `group.md`: Group page. Contains: Faculty (hero block), Current students (2-column grid), Alumni (3-column grid).
+- `group.md`: Group page. Contains: Faculty (hero block), PhD Students, Masters and Undergrad Students, Alumni.
    - Uses data from `_data/people.yml`. Do not hardcode people here.
 - `publications.md`: Publications page.
    - Rendered from `_data/publications.yml`. Only edit this file if changing layout — not when adding papers.
@@ -48,7 +48,7 @@ join.md
 All dynamic content lives in `_data/`.
 
 - `_data/people.yml`
-  - Controls: Faculty, Current students, Alumni
+  - Controls: Faculty, PhD Students, Masters and Undergrad Students, Alumni
   - Update this when: Adding a student, Moving a student to alumni, Updating role/title/website links/photos
   - Example structure:
     ```
@@ -59,18 +59,26 @@ All dynamic content lives in `_data/`.
       photo: "assets/photos/prof-x.png"
       website: "website"
 
-    students:
+    phd_students:
       - name: "Student A"
         role: "PhD in CS, Fall 2025-"
         photo: "assets/photos/student-a.jpg"
         website: "..."
+
+    masters_undergrad_students:
+      - name: "Student B"
+        role: "BS in CS"
+        photo: "assets/photos/student-b.jpg"
+        website: "..."
   
     alumni:
       - name: "Alum A"
+        degree: "PhD"
         role: "PhD (2024), now Company"
         photo: "assets/photos/alum-a.jpg"
         website: "..."
     ```
+  - Alumni entries require `degree: "PhD"`, `degree: "MS"`, or `degree: "BS"` to choose the subsection on the Group page.
 
 - `_data/publications.yml`
   - Controls all publications.
