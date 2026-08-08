@@ -28,11 +28,7 @@
             , 
           {%- endif -%}
         {%- endunless -%}
-        {%- if author_name == "Junjie Hu" -%}
-          <strong><u>{{ author_name }}</u></strong>
-        {%- else -%}
-          {{ author_name }}
-        {%- endif -%}
+        {{ author_name }}
       {%- endfor -%}
     </div>
 
