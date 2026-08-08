@@ -1,0 +1,57 @@
+---
+---
+<div class="publication-row">
+  <div class="publication-abbr">
+    {% if entry.abbr %}
+      <span class="publication-badge">{{ entry.abbr }}</span>
+    {% endif %}
+  </div>
+
+  <div class="publication-main">
+    <div class="publication-title">
+      {% if entry.paper %}
+        <a href="{{ entry.paper }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
+
+    <div class="publication-authors">
+      {%- for author in entry.author_array -%}
+        {%- assign author_first = author.first | default: "" -%}
+        {%- assign author_last = author.last | default: "" -%}
+        {%- assign author_name = author_first | append: " " | append: author_last | strip -%}
+        {%- unless forloop.first -%}
+          {%- if forloop.last -%}
+            {%- if forloop.length > 2 -%}, and {% else %} and {% endif -%}
+          {%- else -%}
+            , 
+          {%- endif -%}
+        {%- endunless -%}
+        {%- if author_name == "Junjie Hu" -%}
+          <strong><u>{{ author_name }}</u></strong>
+        {%- else -%}
+          {{ author_name }}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    {% if entry.venue %}
+      <div class="publication-venue"><em>{{ entry.venue }}</em></div>
+    {% endif %}
+
+    {% if entry.code or entry.checkpoints or entry.website %}
+      <div class="publication-links">
+        {% if entry.code %}
+          <a href="{{ entry.code }}" target="_blank" rel="noopener noreferrer">[Code]</a>
+        {% endif %}
+        {% if entry.checkpoints %}
+          <a href="{{ entry.checkpoints }}" target="_blank" rel="noopener noreferrer">[Checkpoints]</a>
+        {% endif %}
+        {% if entry.website %}
+          <a href="{{ entry.website }}" target="_blank" rel="noopener noreferrer">[Website]</a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>

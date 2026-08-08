@@ -90,6 +90,7 @@ Dynamic YAML content lives in `_data/`.
   - Controls all publications on the Publications page.
   - Add new papers as BibTeX entries. Entries are grouped by `year` automatically.
   - Supported link fields rendered as buttons:
+    - `abbr`
     - `paper`
     - `code`
     - `checkpoints`
@@ -101,6 +102,7 @@ Dynamic YAML content lives in `_data/`.
       author = {Student A and Junjie Hu},
       venue = {In Example Conference 2026},
       year = {2026},
+      abbr = {EMNLP},
       paper = {https://arxiv.org/abs/...},
       code = {https://github.com/...},
       website = {https://example.com/project}
