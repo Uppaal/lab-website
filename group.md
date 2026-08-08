@@ -7,7 +7,7 @@ subtitle: "People in the lab"
 {% assign pi = site.data.people.pi %}
 
 <div class="advisor-row card-lite">
-  <h2 class="mb-3">Faculty</h2>
+  <h2 class="group-section-heading mb-3">Faculty</h2>
 
   <div class="advisor-grid">
     {% if pi.photo and pi.photo != "" %}
@@ -38,7 +38,7 @@ subtitle: "People in the lab"
 
 
 {% if site.data.people.phd_students and site.data.people.phd_students.size > 0 %}
-## PhD Students
+<h2 class="group-section-heading">PhD Students</h2>
 <div class="people-grid">
 {% for p in site.data.people.phd_students %}
 <div class="person">
@@ -70,7 +70,7 @@ subtitle: "People in the lab"
 {% endif %}
 
 {% if site.data.people.masters_undergrad_students and site.data.people.masters_undergrad_students.size > 0 %}
-## Masters and Undergrad Students
+<h2 class="group-section-heading">Masters and Undergrad Students</h2>
 <div class="people-grid">
 {% for p in site.data.people.masters_undergrad_students %}
 <div class="person">
@@ -102,13 +102,13 @@ subtitle: "People in the lab"
 {% endif %}
 
 
-## Alumni
+<h2 class="group-section-heading">Alumni</h2>
 
 {% assign alumni_degrees = "PhD|MS|BS" | split: "|" %}
 {% for degree in alumni_degrees %}
 {% assign alumni_group = site.data.people.alumni | where: "degree", degree %}
 {% if alumni_group.size > 0 %}
-### {{ degree }}
+<h3 class="group-subsection-heading">{{ degree }}</h3>
 <div class="alumni-grid">
   {% for a in alumni_group %}
     <div class="alumni-card">
