@@ -11,10 +11,10 @@ https://madison-nlp.github.io/hu-lab/
 
 ## Deployment (One-Time)
 
-The site is deployed via GitHub Pages.
+The site is deployed via GitHub Pages using GitHub Actions.
 - Repository: `hu-lab`
-- Deployment: `Settings` -> `Pages` -> `Deploy` from main branch (root)
-- Live URL: `https://YOUR_GITHUB_USERNAME.github.io/lab-website/`
+- Deployment: `Settings` -> `Pages` -> `Build and deployment` -> Source: `GitHub Actions`
+- Live URL: `https://madison-nlp.github.io/hu-lab/`
   - Or custom domain if configured
 
 **Important:** This site depends on Jekyll. Do not add a `.nojekyll` file.
