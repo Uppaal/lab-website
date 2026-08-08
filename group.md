@@ -37,6 +37,7 @@ subtitle: "People in the lab"
 </div>
 
 
+{% if site.data.people.phd_students and site.data.people.phd_students.size > 0 %}
 ## PhD Students
 <div class="people-grid">
 {% for p in site.data.people.phd_students %}
@@ -66,7 +67,9 @@ subtitle: "People in the lab"
 </div>
 {% endfor %}
 </div>
+{% endif %}
 
+{% if site.data.people.masters_undergrad_students and site.data.people.masters_undergrad_students.size > 0 %}
 ## Masters and Undergrad Students
 <div class="people-grid">
 {% for p in site.data.people.masters_undergrad_students %}
@@ -96,6 +99,7 @@ subtitle: "People in the lab"
 </div>
 {% endfor %}
 </div>
+{% endif %}
 
 
 ## Alumni
