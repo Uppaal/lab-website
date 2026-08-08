@@ -28,77 +28,20 @@ title: ""
 
     <div class="carousel-inner">
 
-      <!--
-      <div class="carousel-item">
+      {% for slide in site.data.carousel %}
+      <div class="carousel-item{% if forloop.first %} active{% endif %}">
         <img
-          src="{{ site.baseurl }}/assets/photos/lab-2025-fall.jpg"
+          src="{{ site.baseurl }}/{{ slide.image }}"
           class="d-block w-100 carousel-img"
-          alt="New lab photo"
+          alt="{{ slide.alt }}"
         />
+        {% if slide.caption %}
         <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">Lab Outing - Fall 2025</p>
+          <p class="mb-0">{{ slide.caption }}</p>
         </div>
+        {% endif %}
       </div>
-      -->
-
-      <div class="carousel-item">
-        <img
-          src="{{ site.baseurl }}/assets/photos/lab-2023-spring.jpg"
-          class="d-block w-100 carousel-img"
-          alt="New lab photo"
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">Lab Outing - Spring 2023</p>
-        </div>
-      </div>
-
-      <div class="carousel-item active">
-        <img
-          src="{{ site.baseurl }}/assets/photos/lab-2024-spring.jpg"
-          class="d-block w-100 carousel-img"
-          alt="New lab photo"
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">Lab Outing - Spring 2024</p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img
-          src="{{ site.baseurl }}/assets/photos/lab-2026-spring.jpg"
-          class="d-block w-100 carousel-img"
-          alt="New lab photo"
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">Lab Outing - Summer 2026</p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img
-          src="{{ site.baseurl }}/assets/photos/lab-2026-spring-2.jpg"
-          class="d-block w-100 carousel-img"
-          alt="New lab photo"
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">Lab Outing - Summer 2026</p>
-        </div>
-      </div>
-
-      <!--
-      Add more slides like this:
-
-      <div class="carousel-item">
-        <img
-          src="{{ site.baseurl }}/assets/photos/another-photo.jpg"
-          class="d-block w-100 carousel-img"
-          alt="Another lab photo"
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">Another byline</p>
-        </div>
-      </div>
-      -->
+      {% endfor %}
 
     </div>
 

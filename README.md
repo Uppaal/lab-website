@@ -2,7 +2,7 @@
 
 This repository contains the source code for the lab website, hosted via GitHub Pages and built using Jekyll. 
 
-The site is data-driven where possible (people, publications), so most updates do not require editing HTML.
+The site is data-driven where possible (people, publications, carousel), so most updates do not require editing HTML.
 
 The website can currently be accessed at:
 ```
@@ -36,7 +36,7 @@ join.md
 ### Root Files
 - `_config.yml`: Global site configuration. Update this if: Changing domain, updating site title.
 - `assets/css/style.css`: Contains all custom styling. Only edit if changing visual design.
-- `index.md`: Homepage. Contains: Research themes, Carousel.
+- `index.md`: Homepage. Contains: Research themes and the carousel layout. Carousel images are loaded from `_data/carousel.yml`.
 - `group.md`: Group page. Contains: Faculty (hero block), Current students (2-column grid), Alumni (3-column grid).
    - Uses data from `_data/people.yml`. Do not hardcode people here.
 - `publications.md`: Publications page.
@@ -92,10 +92,25 @@ All dynamic content lives in `_data/`.
               url: "..."
     ```
 
-  - `assets/photos/`
-     - Contains: Faculty, Student, Alumni photos, Carousel images
-     - All image paths in YAML are relative to repository root.
-     - Use lowercase filenames and avoid spaces.
-     - Example: `assets/photos/lab-2024-spring.jpg`
+- `_data/carousel.yml`
+  - Controls the homepage carousel images in display order.
+  - Add, remove, or reorder carousel slides here. Do not hardcode slides in `index.md`.
+  - Each entry should include:
+    ```
+    - image: "assets/photos/lab-2026-spring.jpg"
+      caption: "Hu Lab Outing - Summer 2026"
+      alt: "Hu Lab outing in Summer 2026"
+    ```
+  - `image` should point to an existing file under `assets/photos/`.
+  - `caption` is shown over the carousel on medium and larger screens.
+  - `alt` should briefly describe the image for accessibility.
+
+### Image Assets
+
+- `assets/photos/`
+  - Contains: Faculty, Student, Alumni photos, Carousel images
+  - All image paths in YAML are relative to repository root.
+  - Use lowercase filenames and avoid spaces.
+  - Example: `assets/photos/lab-2024-spring.jpg`
    
   
