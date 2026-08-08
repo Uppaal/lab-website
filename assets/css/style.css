@@ -101,6 +101,44 @@ body {
   border-color: var(--highlight-color);
 }
 
+.publications ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+}
+
+.publications ol.bibliography li {
+  margin-bottom: 1rem;
+}
+
+.publication-entry {
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.publications ol.bibliography li:last-child .publication-entry {
+  border-bottom: none;
+}
+
+.publication-title {
+  font-weight: 600;
+}
+
+.publication-authors {
+  color: #555;
+  margin-top: 0.15rem;
+}
+
+.publication-venue {
+  margin-top: 0.15rem;
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+
 
 /* Emphasis / semantic colors */
 .text-accent {

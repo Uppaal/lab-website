@@ -5,6 +5,40 @@ url: "https://madison-nlp.github.io"
 baseurl: "/hu-lab"
 
 markdown: kramdown
-plugins: []
+plugins:
+  - jekyll/scholar
+  - al_folio_core
 
 permalink: pretty
+
+# Keep Hu Lab's local layouts/styles; al_folio_core is registered only for publication support.
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/css/style.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  compat:
+    bootstrap:
+      enabled: true
+
+scholar:
+  last_name: [Hu]
+  first_name: [Junjie]
+  source: /_data/
+  bibliography: papers.bib
+  bibliography_template: bib
+  style: apa
+  locale: en
+  query: "@*"
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  replace_strings: true
+  join_strings: true
