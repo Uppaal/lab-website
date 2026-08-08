@@ -327,6 +327,16 @@ footer a:hover {
   align-items: flex-start;
 }
 
+.group-section-heading {
+  border-bottom: 1px solid rgba(0,0,0,.14);
+  padding-bottom: 0.45rem;
+}
+
+.group-subsection-heading {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: 0.35rem;
+}
+
 .advisor-row {
   margin-bottom: 1.5rem;
 }
