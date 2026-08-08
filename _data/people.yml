@@ -36,13 +36,6 @@ students:
     website: "https://ikakkar03.github.io/"
     photo: "assets/photos/ishita-kakkar.jpg"
 
-#  - name: "Alexander Geppert"
-#    role: "PhD in CS, Fall 2025-"
-#    interests: [ "Multi-modal Retrieval", "Agentic AI", "World Models" ]
-#    website: "https://ageppert01.github.io/"
-#    photo: "assets/photos/alexander-geppert.jpeg"
-
-
 alumni:
   - name: "Tim Ossowski"
     role: "PhD in CS (2021-26), now Senior Research Scientist at Microsoft Research"
