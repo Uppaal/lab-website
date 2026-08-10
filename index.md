@@ -20,55 +20,57 @@ title: ""
 
   </div>
 
-<div class="carousel-frame">
-  <div id="labCarousel"
-     class="carousel slide"
-     data-bs-ride="carousel"
-     data-bs-interval="3000">
+  <div class="carousel-frame">
+    <div id="labCarousel"
+       class="carousel slide"
+       data-bs-ride="carousel"
+       data-bs-interval="3000">
 
-    <div class="carousel-inner">
+      <div class="carousel-inner">
 
-      {% for slide in site.data.carousel %}
-      <div class="carousel-item{% if forloop.first %} active{% endif %}">
-        <img
-          src="{{ site.baseurl }}/{{ slide.image }}"
-          class="d-block w-100 carousel-img"
-          alt="{{ slide.alt }}"
-        />
-        {% if slide.caption %}
-        <div class="carousel-caption d-none d-md-block">
-          <p class="mb-0">{{ slide.caption }}</p>
+        {% for slide in site.data.carousel %}
+        <div class="carousel-item{% if forloop.first %} active{% endif %}">
+          <img
+            src="{{ site.baseurl }}/{{ slide.image }}"
+            class="d-block w-100 carousel-img"
+            alt="{{ slide.alt }}"
+          />
+          {% if slide.caption %}
+          <div class="carousel-caption d-none d-md-block">
+            <p class="mb-0">{{ slide.caption }}</p>
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
+        {% endfor %}
+
       </div>
-      {% endfor %}
 
+      <button class="carousel-control-prev" type="button" data-bs-target="#labCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#labCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#labCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#labCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 </div>
 
+<section class="sponsors">
   <h5 class="mb-2">Sponsors</h5>
-    <p>We are grateful to the following organizations for supporting our research:
-      <ul class="mb-0">
-            <li>National Science Foundation (CISE/IIS core)</li>
-            <li>National Institutes of Health (NLM R01, NIBIB R01)</li>
-            <li>Department of Defense</li>
-            <li>IARPA (Video LINCS)</li>
-            <li>UW ICTR</li>
-            <li>Wisconsin Alumni Research Foundation</li>
-            <li>American Family Insurance</li>
-            <li>Coefficient Giving (previously Open Philanthropy)</li>
-            <li>Microsoft</li>
-            <li>NVIDIA</li>
-            <li>Google</li>
-    </ul>
-</div>
+  <p>We are grateful to the following organizations for supporting our research:</p>
+  <ul class="mb-0">
+    <li>National Science Foundation (CISE/IIS core)</li>
+    <li>National Institutes of Health (NLM R01, NIBIB R01)</li>
+    <li>Department of Defense</li>
+    <li>IARPA (Video LINCS)</li>
+    <li>UW ICTR</li>
+    <li>Wisconsin Alumni Research Foundation</li>
+    <li>American Family Insurance</li>
+    <li>Coefficient Giving (previously Open Philanthropy)</li>
+    <li>Microsoft</li>
+    <li>NVIDIA</li>
+    <li>Google</li>
+  </ul>
+</section>

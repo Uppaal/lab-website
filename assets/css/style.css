@@ -242,6 +242,10 @@ body {
   object-fit: cover;
 }
 
+.sponsors {
+  margin-top: 1.5rem;
+}
+
 @media (max-width: 800px) {
   .carousel-frame {
     border-radius: 8px;
