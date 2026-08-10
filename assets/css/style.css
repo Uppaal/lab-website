@@ -208,13 +208,15 @@ body {
 }
 
 .blog-card-image-link {
+  background: #f8f9fa;
   display: block;
 }
 
 .blog-card-image {
   aspect-ratio: 16 / 9;
+  background: #f8f9fa;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 

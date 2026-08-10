@@ -95,7 +95,7 @@ Dynamic YAML content lives in `_data/`.
       url: "https://example.com/blog-post"
       authors: "Jane Doe, John Smith"
       byline: "A short one-sentence description of the post."
-      image: "assets/photos/example.jpg"
+      image: "assets/blog_diagrams/example.jpg"
     ```
   - Required fields: `title`.
   - Recommended fields: `url`, `authors`, `byline`.
