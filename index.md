@@ -5,7 +5,9 @@ title: ""
 
 <div class="hero">
   <div>
-    <h1 class="mb-2">{{ site.title }}</h1>
+    <div class="home-logo-wrap mb-3">
+      <img class="home-logo" src="{{ site.baseurl }}/assets/logo/puma.png" alt="{{ site.title }}">
+    </div>
     <p class="lead mb-3">{{ site.description }}</p>
 
     <div class="card-lite">
