@@ -1,0 +1,29 @@
+# Add one entry per research blog post.
+# Example:
+# - title: "Understanding Language Model Behavior"
+#   url: "https://example.com/blog-post"
+#   authors: "Jane Doe, John Smith"
+#   byline: "A short one-sentence description of the post."
+#   image: "assets/blog_diagrams/example.jpg"
+
+
+ - title: "R-KV: Redundancy-aware KV Cache Compression for Reasoning Models"
+   url: "https://zefan-cai.github.io/R-KV.page/"
+   authors: "Zefan Cai"
+   byline: "Redundancy-aware KV-cache compression for Reasoning models, or R-KV, is a highly-efficient decoding-time KV-cache compression method to serve reasoning LLMs."
+   image: "assets/blog_diagrams/2025_4_kv.png"
+
+
+
+# - title: "PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling"
+#   url: "https://zefan-cai.github.io/PyramidKV.github.io/"
+#   authors: "Zefan Cai"
+#   byline: "Redundancy-aware KV-cache compression for Reasoning models, or R-KV, is a highly-efficient decoding-time KV-cache compression method to serve reasoning LLMs."
+#   image: "assets/blog_diagrams/2025_4_kv.png"
+
+
+ - title: "Model Editing as a Robust and Denoised variant of DPO: A Case Study on Toxicity"
+   url: "https://uppaal.github.io/projects/profs/profs.html"
+   authors: "Rheeya Uppaal"
+   byline: "We show both theoretical and empirical connections between imapcts of tuning based and editing based alignment."
+   image: "assets/blog_diagrams/2025_profs.png"

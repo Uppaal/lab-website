@@ -2,7 +2,7 @@
 
 This repository contains the source code for the lab website, hosted via GitHub Pages and built using Jekyll. 
 
-The site is data-driven where possible (people, carousel) and uses BibTeX for publications, so most updates do not require editing HTML.
+The site is data-driven where possible (people, carousel, research blogs) and uses BibTeX for publications, so most updates do not require editing HTML.
 
 The website can currently be accessed at:
 ```
@@ -32,6 +32,8 @@ The publications page uses Jekyll plugins from `Gemfile` (`jekyll-scholar` and `
    - Uses data from `_data/people.yml`. Do not hardcode people here.
 - `publications.md`: Publications page.
    - Rendered from `_data/papers.bib`. Only edit this file if changing layout, not when adding papers.
+- `research-blogs.md`: Research Blogs page.
+   - Rendered from `_data/blogs.yml`. Only edit this file if changing layout, not when adding blog posts.
 - `join.md`: Recruiting / open positions page.
 
 ### Data Files (Update These Regularly)
@@ -84,6 +86,23 @@ Dynamic YAML content lives in `_data/`.
   - `caption` is shown over the carousel on medium and larger screens.
   - `alt` should briefly describe the image for accessibility.
 
+- `_data/blogs.yml`
+  - Controls the Research Blogs page.
+  - Add, remove, or reorder blog posts here. Do not hardcode posts in `research-blogs.md`.
+  - Each entry should include:
+    ```
+    - title: "Understanding Language Model Behavior"
+      url: "https://example.com/blog-post"
+      authors: "Jane Doe, John Smith"
+      byline: "A short one-sentence description of the post."
+      image: "assets/photos/example.jpg"
+    ```
+  - Required fields: `title`.
+  - Recommended fields: `url`, `authors`, `byline`.
+  - Optional field: `image`. If used, point it to an existing file under `assets/photos/` or to a full external URL.
+  - If `url` is omitted, the title is rendered as plain text.
+  - If `image` is omitted, the tile renders without an image.
+
 ### Publications
 
 - `_data/papers.bib`
@@ -108,6 +127,14 @@ Dynamic YAML content lives in `_data/`.
       website = {https://example.com/project}
     }
     ```
+
+### Research Blogs
+
+- `_data/blogs.yml`
+  - Controls all entries on the Research Blogs page.
+  - To add a post, append a new YAML item with `title`, `url`, `authors`, `byline`, and optionally `image`.
+  - Keep image paths relative to the repository root, for example `assets/photos/blog-image.jpg`.
+  - Blog posts appear in the same order as the YAML entries.
 
 ### Image Assets
 
