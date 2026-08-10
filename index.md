@@ -57,8 +57,9 @@ title: ""
   </div>
 </div>
 
+<br>
 <section class="sponsors">
-  <h5 class="mb-2">Sponsors</h5>
+  <h5 class="mb-2"><span class="text-highlight">Sponsors</span></h5>
   <p>We are grateful to the following organizations for supporting our research:</p>
   <ul class="mb-0">
     <li>National Science Foundation (CISE/IIS core)</li>
