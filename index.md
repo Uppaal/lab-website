@@ -55,3 +55,20 @@ title: ""
     </button>
   </div>
 </div>
+
+  <h5 class="mb-2">Sponsors</h5>
+    <p>We are grateful to the following organizations for supporting our research:
+      <ul class="mb-0">
+            <li>National Science Foundation (CISE/IIS core)</li>
+            <li>National Institutes of Health (NLM R01, NIBIB R01)</li>
+            <li>Department of Defense</li>
+            <li>IARPA (Video LINCS)</li>
+            <li>UW ICTR</li>
+            <li>Wisconsin Alumni Research Foundation</li>
+            <li>American Family Insurance</li>
+            <li>Coefficient Giving (previously Open Philanthropy)</li>
+            <li>Microsoft</li>
+            <li>NVIDIA</li>
+            <li>Google</li>
+    </ul>
+</div>
