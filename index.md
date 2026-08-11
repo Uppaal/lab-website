@@ -6,7 +6,7 @@ title: ""
 <div class="hero">
   <div>
     <div class="home-logo-wrap mb-3">
-      <img class="home-logo" src="{{ site.baseurl }}/assets/logo/puma.png" alt="{{ site.title }}">
+      <img class="home-logo" src="{{ site.baseurl }}/assets/logo/puma-v2.png" alt="{{ site.title }}">
     </div>
     <p class="lead mb-3">{{ site.description }}</p>
 
